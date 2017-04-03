@@ -23,27 +23,25 @@ projects[page_manager][version] = 1.0-alpha24
 
 projects[panels][type] = module
 projects[panels][subdir] = "contrib"
-projects[panels][version] = 3.0-beta6
-;; Issue #2793801 : Allow modules to influence the IPE tempstore ID
-projects[panels][patch][] = https://www.drupal.org/files/issues/2793801-13.patch
+projects[panels][download][url] = https://git.drupal.org/project/panels.git
+projects[panels][download][revision] = 65d23d2f4980f7526595e2b00f634f2be5ddaf3f
+projects[panels][download][branch] = 8.x-4.x
 
 projects[panelizer][type] = module
 projects[panelizer][subdir] = "contrib"
-projects[panelizer][version] = 3.0-beta1
-;; Issue #2793841 - Properly integrate with Panels IPE
-projects[panelizer][patch][] = https://www.drupal.org/files/issues/panelizer-panels-ipe-tempstore-id.patch
-
-projects[layout_plugin][type] = module
-projects[layout_plugin][subdir] = "contrib"
-projects[layout_plugin][version] = 1.0-alpha23
+projects[panelizer][download][url] = https://git.drupal.org/project/panelizer.git
+projects[panelizer][download][revision] = 0dbe4215cb0529b8901419058a5435fe35d51ef5
+projects[panelizer][download][branch] = 8.x-4.x
 
 projects[bootstrap_layouts][type] = module
 projects[bootstrap_layouts][subdir] = "contrib"
-projects[bootstrap_layouts][version] = 4.1
+projects[bootstrap_layouts][download][url] = https://git.drupal.org/project/bootstrap_layouts.git
+projects[bootstrap_layouts][download][revision] = 87054e702a62e1757d77da92a4e590087f6b0a95
+projects[bootstrap_layouts][download][branch] = 8.x-5.x
 
 projects[ds][type] = module
 projects[ds][subdir] = "contrib"
-projects[ds][version] = 2.6
+projects[ds][version] = 3.0-beta1
 
 projects[views_bootstrap][type] = module
 projects[views_bootstrap][subdir] = "contrib"
@@ -370,7 +368,7 @@ projects[adminimal_theme][version] = 1.3
 projects[vmi][type] = module
 projects[vmi][subdir] = "contrib"
 projects[vmi][download][url] = https://git.drupal.org/project/vmi.git
-projects[vmi][download][revision] = 594dc1dd4a6dec7c5d40cacb284a1381d7902d78
+projects[vmi][download][revision] = 9d86e90591fdc72991e28ddb8c9bf6e0c2625e07
 projects[vmi][download][branch] = 8.x-1.x
 
 ;;;;;;;;;;;;;;;;;;;;;
