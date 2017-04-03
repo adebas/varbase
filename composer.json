@@ -107,14 +107,6 @@
       ]
     },
     "patches": {
-      "drupal/panels": {
-        "Issue #2793801 : Allow modules to influence the IPE tempstore ID":
-        "https://www.drupal.org/files/issues/2793801-13.patch"
-      },
-      "drupal/panelizer": {
-        "Issue #2793841 : Properly integrate with Panels IPE":
-        "https://www.drupal.org/files/issues/panelizer-panels-ipe-tempstore-id.patch"
-      },
       "drupal/coffee": {
         "Issue #2815381 by mqanneh, ahmadhalah, michaelmol: Coffee breaks whole page when using right to left (rtl) languages in drupal 8":
         "https://www.drupal.org/files/issues/coffee-coffee_breaks_page_with_rtl-2815381-6.patch"
