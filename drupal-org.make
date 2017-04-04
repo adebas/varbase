@@ -13,6 +13,11 @@ projects[ctools][type] = module
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = 3.0-beta1
 
+projects[ctools][subdir] = "contrib"
+projects[ctools][download][url] = https://git.drupal.org/project/ctools.git
+projects[ctools][download][revision] = 52b174ba66c6d38a7da21508c8896322a9bd051f
+projects[ctools][download][branch] = 8.x-3.x
+
 projects[token][type] = module
 projects[token][subdir] = "contrib"
 projects[token][version] = 1.0-rc1
