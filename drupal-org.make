@@ -77,10 +77,6 @@ projects[linkit][type] = module
 projects[linkit][subdir] = "contrib"
 projects[linkit][version] = 4.3
 
-projects[anchor_link][type] = module
-projects[anchor_link][subdir] = "contrib"
-projects[anchor_link][version] = 1.3
-
 projects[image_resize_filter][type] = module
 projects[image_resize_filter][subdir] = "contrib"
 projects[image_resize_filter][download][url] = https://git.drupal.org/project/image_resize_filter.git
@@ -106,10 +102,6 @@ projects[entity_browser][version] = 1.0-rc2
 projects[entity_browser][patch][] = https://www.drupal.org/files/issues/ElementPatch_0.patch
 ;; Issue #2845037 by slashrsm, RajabNatshah: Fixed the issue of Call to a member function getConfigDependencyKey() on null on [Widget view], and [SelectionDisplay view]
 projects[entity_browser][patch][] = https://www.drupal.org/files/issues/2845037_15.patch
-
-projects[entity_browser_enhanced][type] = module
-projects[entity_browser_enhanced][subdir] = "contrib"
-projects[entity_browser_enhanced][version] = 1.0-beta4
 
 projects[dropzonejs][type] = module
 projects[dropzonejs][subdir] = "contrib"
@@ -237,10 +229,6 @@ projects[metatag][type] = module
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = 1.0
 
-projects[xmlsitemap][type] = module
-projects[xmlsitemap][subdir] = "contrib"
-projects[xmlsitemap][version] = 1.0-alpha2
-
 projects[simple_sitemap][type] = module
 projects[simple_sitemap][subdir] = "contrib"
 projects[simple_sitemap][version] = 2.9
@@ -362,8 +350,32 @@ projects[adminimal_theme][subdir] = "contrib"
 projects[adminimal_theme][version] = 1.3
 
 ;;;;;;;;;;;;;;;;;;;;;
+;; Legacy Contrib mdoules
+;;  - Not used, but kept for projects which still using them
+;;  - As a step to update or migrate and use new selected modules. 
+;;;;;;;;;;;;;;;;;;;;;
+
+;; Layout plugin is in Drupal 8.3.x core under the name of [Layout Discovery]
+projects[layout_plugin][type] = module
+projects[layout_plugin][subdir] = "contrib"
+projects[layout_plugin][version] = 1.0-alpha23
+
+;; Switched to use [simple sitemap] as the default for sitemap.
+projects[xmlsitemap][type] = module
+projects[xmlsitemap][subdir] = "contrib"
+projects[xmlsitemap][version] = 1.0-alpha2
+
+;;;;;;;;;;;;;;;;;;;;;
 ;; Varbase public contrib modules
 ;;;;;;;;;;;;;;;;;;;;;
+
+projects[anchor_link][type] = module
+projects[anchor_link][subdir] = "contrib"
+projects[anchor_link][version] = 1.3
+
+projects[entity_browser_enhanced][type] = module
+projects[entity_browser_enhanced][subdir] = "contrib"
+projects[entity_browser_enhanced][version] = 1.0-beta4
 
 projects[vmi][type] = module
 projects[vmi][subdir] = "contrib"
